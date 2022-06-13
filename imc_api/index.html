@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="comportamento.js" defer></script>
+
+    <title>IMC</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <h1>Calculadora IMC</h1>
+        </header>
+        <main>
+            <section id="left">
+                <div id="dados">
+                    <img src="images/avatar_female.png" />
+                    <p id="show_nome">--</p>
+                    <p id="show_sexo">--</p>
+                    <p id="show_imc">IMC --</p>
+                    <p id="show_classificacao">--</p>
+                </div>
+                <div id="formulario">
+                    <form action="#">
+                        <h2>Calcule seu IMC</h2>
+                        <div id="botoes_sexo">
+                            <button id="sexo_m">M</button>
+                            <button id="sexo_f">F</button>
+                        </div>
+                        <div class="input_controls">
+                            <label for="nome">Nome</label>
+                            <input id="nome" type="text" autocomplete="off" />
+                        </div>
+                        <div class="input_controls">
+                            <label for="peso">Peso (kg)</label>
+                            <input id="peso" type="text" autocomplete="off" />
+                        </div>
+                        <div class="input_controls">
+                            <label for="altura">Altura (m)</label>
+                            <input id="altura" type="text" autocomplete="off" />
+                        </div>
+                        <button id="btn_calcular">CALCULAR IMC</button>
+                        <button id="btn_limpar">LIMPAR</button>
+                    </form>
+                </div>
+            </section>
+            <section id="right">
+                <h2>Registros de Avaliação</h2>
+                <div id="itens">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>NOME</th>
+                                <th>IMC</th>
+                                <th>CLASSIFICAÇÃO</th>
+                                <th>AÇÕES</th>
+                            </tr>
+                        </thead>
+                        <tbody id="corpo_tabela">
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="acoes">
+                    <button>Limpar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Fim por fim feito por mim!</p>
+            <p>Emerson Nogueira @ 2022</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
