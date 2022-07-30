@@ -1,0 +1,34 @@
+{
+  "avaliacoes": [
+    {
+      "id": 1,
+      "nome": "Rogério da Silva",
+      "imc": 36.2,
+      "classificacao": "Obesidade II"
+    },
+    {
+      "id": 2,
+      "nome": "Felipe da Silva",
+      "imc": 22.5,
+      "classificacao": "Abaixo do peso"
+    },
+    {
+      "id": 3,
+      "nome": "Diego Souza",
+      "imc": 25.7,
+      "classificacao": "Peso Normal"
+    },
+    {
+      "nome": "Eva Pereira",
+      "imc": 38.10394756896814,
+      "classificacao": "Obesidade II",
+      "id": 4
+    },
+    {
+      "nome": "Suellen Cardoso",
+      "imc": 26.253061224489798,
+      "classificacao": "Sobrepeso",
+      "id": 5
+    }
+  ]
+}
